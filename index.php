@@ -127,7 +127,7 @@ include('subscription.php');
 			<h2>Stay tuned for the next upgrades</h2>
 			<form action="index.php#newsletter" method='POST'>
 				<label for="email">email</label>
-				<input type="email" name="mail" placeholder="youradress@email.com"/>
+				<input type="email" name="mail" placeholder="youraddress@email.com"/>
 				<input type="submit" value="send" name="submit"/>
 			</form>
 			<span id="errors"><?php echo($thank_you); ?><?php echo($error_no_email); ?><?php echo($error_wrong_email); ?><?php echo($error_email_used); ?></span>
