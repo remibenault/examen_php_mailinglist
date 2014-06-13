@@ -1,6 +1,7 @@
 <?php
 
 /* PHP réalisé avec l'aide de Thib, on ne va pas se mentir */
+/* bug multiple messages d'erreurs */
 
 if($_POST['submit']){
 
